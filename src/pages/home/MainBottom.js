@@ -6,7 +6,7 @@ import framefour from "../../images/Framefour.png";
 import framefive from "../../images/Framefive.png";
 import framesix from "../../images/Framesix.png";
 import frameseven from "../../images/Frameseven.png";
-import frameeight from "../../images/frameeight.png";
+// import frameeight from "../../images/frameeight.png";
 
 import './MainBottom.css';
 
@@ -38,9 +38,9 @@ function MainBOttom(){
          <div className="imag_tag">
             <img src={frameseven} alt="image 7"/>
          </div>
-         <div className="imag_tag">
+         {/* <div className="imag_tag">
             <img src={frameeight} alt="image 8"/>
-         </div>
+         </div> */}
     </div>
     </div>
     )
