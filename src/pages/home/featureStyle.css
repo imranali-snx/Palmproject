@@ -1,0 +1,194 @@
+.featuresDiv {
+  background-color: #f4f6f7;
+  padding: 91px 148px;
+  display: flex;
+  flex-direction: column;
+}
+.mainDivAlign {
+  display: flex;
+  flex-direction: column;
+}
+.featureHeading {
+  width: 405px;
+  height: 86px;
+}
+.featureHeading1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42.66px;
+  font-style: normal;
+  color: #043344;
+  font-family: "Objective";
+}
+.featureParagraph {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20.3px;
+  font-family: "Objective";
+  color: #043344;
+}
+.featureParadiv {
+  height: 120px;
+  width: 903px;
+  margin: 25px 0px;
+}
+.featureBtn {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #043344;
+  line-height: 24px;
+  text-align: center;
+  background-color: #f4f6f7;
+  border-color: #ff7762;
+  border-width: 2px;
+  border-style: solid;
+  padding: 7px 14px;
+}
+.featurebtn2 {
+  margin: "5px";
+}
+.featureHeading2 {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42.66px;
+  color: #043344;
+}
+
+.featureHead {
+  width: 509px;
+  height: 43px;
+}
+.featureRow {
+  display: flex;
+  flex-direction: row;
+  /* padding: 30px; */
+  margin: 35px;
+  border: 1px solid rgb(50, 198, 154, 0.2);
+  border-radius: 30px;
+}
+.featureRow1 {
+  display: flex;
+  flex-direction: row;
+  /* padding: 30px; */
+  margin: 35px;
+}
+.featureColumn {
+  display: flex;
+  flex-direction: row-reverse;
+  /* padding: 60px 35px;
+     */
+  margin: 0px 35px;
+  /* padding: 30px; */
+  /* width: 65%; */
+  gap: 20px;
+  border: 1px solid rgb(50, 198, 154, 0.2);
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .featuresDiv {
+    align-items: center;
+  }
+  .featureHeading {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px;
+  }
+  .featureHead {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.featureCol2Img {
+  width: 435px;
+  /* height: 310px; */
+  height: 100%;
+  border-radius: 30px;
+}
+.featureColPara {
+  height: 30px;
+  width: 309px;
+}
+.featureColPara1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Objective";
+  font-style: normal;
+  color: #043344;
+}
+.featureColService {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20.3px;
+  color: #205260;
+}
+.featureColPara2 {
+  width: 85%;
+
+  height: 40px;
+}
+.featureCol1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.featurePoints {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #205260;
+  line-height: 20.4px;
+  margin-left: 12px;
+}
+.featureLogo {
+  display: flex;
+  margin: 5px 14px;
+  gap: 17px;
+}
+.featureLogoImg {
+  width: 33.33px;
+  /* height: 36.67px; */
+}
+
+@media screen and (max-width: 1200px) {
+  /* .featureRow1{
+    flex-direction: column;
+  } */
+  .featureColumn,
+  .featureRow1,
+  .featureRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+  }
+  .featureColPara {
+    text-align: center;
+    margin: auto;
+  }
+  .featureColPara2 {
+    margin: auto;
+    text-align: center;
+  }
+  .featurePoints {
+    margin-left: 22%;
+  }
+  .featureBtn {
+    align-items: center;
+    display: flex;
+  }
+  .featurebtn2 {
+    margin: auto;
+  }
+ 
+}

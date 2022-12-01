@@ -1,0 +1,129 @@
+.main_head {
+  padding-top: 8%;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.heroSection {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+      180deg,
+      #f9fffe 42.05%,
+      #ffffff 42.06%,
+      #e1e1e1 100%
+    ),
+    linear-gradient(66.18deg, #f9fffe 49.34%, #ffffff 49.35%, #e0e0e0 102.81%);
+}
+.main_left_para {
+  color: #ff7762;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 133.3%;
+}
+.main_left_head {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #043344;
+  margin: 0px;
+}
+.main_left {
+  /* background-color: #32C69A;
+   width: 45%; */
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 7px;
+  /* margin: auto; */
+  margin-left: 10%;
+}
+.main_left_top {
+  /* padding-bottom: 8px; */
+}
+.main_left_heading {
+  width: 525px;
+  padding-bottom: 4px;
+}
+.main_left_heading_dot {
+  color: #32c69a;
+}
+.main_left_paragraph {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145%;
+  color: #205260;
+  width: 360px;
+}
+.text_bold {
+  font-weight: 700;
+}
+.main_left_div {
+  /* width: 75%; */
+  /* width: 350px;
+    height: 140px; */
+}
+.main_left_list {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 210%;
+  color: #32c69a;
+}
+.main_left_div2 {
+  /* margin: 10px 20px */
+}
+.main_left_btn {
+  background: #ff7762;
+  box-shadow: 0px 24px 38px 3px rgba(50, 198, 176, 0.1),
+    0px 9px 46px 8px rgba(50, 198, 176, 0.08),
+    0px 11px 15px -7px rgba(50, 198, 176, 0.16);
+  border-radius: 4px;
+  border: none;
+  padding: 12px 24px;
+  width: 225px;
+  height: 48px;
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  word-spacing: 1px;
+}
+.btn_txt {
+  width: 215px;
+  height: 24px;
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  word-spacing: 1px;
+}
+.main_right {
+  display: flex;
+  width: 38vw;
+  justify-content: flex-end;
+  /* position: relative; */
+}
+.main_right_img {
+  /* position: absolute; */
+}
+.main_image_pic {
+  height: 97%;
+
+  /* width: 536px;
+  height: 689px; */
+}

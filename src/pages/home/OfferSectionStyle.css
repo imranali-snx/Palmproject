@@ -1,0 +1,111 @@
+.offerMain {
+  padding: 20px 0px;
+  /* position: relative; */
+}
+
+.offerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offerHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.offerHead1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.offerPara {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42.66px;
+  color: #043344;
+  margin: 0px;
+}
+.offerPara1 {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #043344;
+  text-align: center;
+  line-height: 22.3px;
+  margin: 0px;
+}
+.offerPara2 {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #043344;
+  text-align: center;
+  line-height: 20.3px;
+}
+
+.offerBox {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 90px 50px;
+}
+@media screen and (max-width: 1000px) {
+  .offerBox{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+
+  }
+  
+}
+.offerimg {
+  position: absolute;
+  /* left: 113px; */
+  bottom: 175px;
+}
+
+.offerBoxDiv {
+  border: 1px solid #e9edef;
+  box-shadow: 0px 12px 12px rgba(40, 75, 100, 0.04),
+    0px 5px 5px rgba(40, 75, 100, 0.03), 0px -1px 2px rgba(40, 75, 100, 0.03);
+  border-radius: 30px;
+  width: 288px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.offerPara3 {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #043344;
+}
+.offerList {
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #5d728c;
+  line-height: 20.3px;
+  width: 75%;
+}
+.offerMargin {
+  margin-top: 50px;
+}

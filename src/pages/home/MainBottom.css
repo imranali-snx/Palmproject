@@ -1,0 +1,40 @@
+.main_bottom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 61px;
+    padding-right: 61px;
+    gap: 33px;
+   
+}
+.image_one{
+    
+}
+.imag_tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #205260;
+}
+.main_bottom_one_tag{
+    font-family: 'Objective';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 145%;
+
+color: #043344;
+
+}
+.main_bottom_one{
+    display: flex;
+    justify-content: center;
+}
+.main_bottom_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.one{
+    background-color: aqua;
+}
