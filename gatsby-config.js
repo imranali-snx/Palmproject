@@ -6,8 +6,10 @@
     title: `palm-hr`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-offline","gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
+    resolve: `gatsby-plugin-offline`,
+
     options: {
       "icon": "src/images/favicon.png"
     }

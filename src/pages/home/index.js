@@ -21,7 +21,7 @@ const Landing = () => {
       <NewFile />
       <MobileApp />
       <ManagementModel />
-      <Features />
+      {/* <Features /> */}
       <FeedBack />
       {/* <NewFile /> */}
       {/* <Slider /> */}
