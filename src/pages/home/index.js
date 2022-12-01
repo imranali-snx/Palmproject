@@ -6,7 +6,7 @@ import MobileApp from "./downloadApp";
 // import NewFile from "./NewFile.js";
 import FeedBack from "./Feedback";
 import ManagementModel from "./ManagementModel";
-import Features from "./Features";
+// import Features from "./Features";
 import Faqs from "./Faqs";
 import Offersection from "./Offersection";
 import NewFile from "./NewFile";
@@ -21,7 +21,7 @@ const Landing = () => {
       <NewFile />
       <MobileApp />
       <ManagementModel />
-      <Features />
+      {/* <Features /> */}
       <FeedBack />
       {/* <NewFile /> */}
       {/* <Slider /> */}
