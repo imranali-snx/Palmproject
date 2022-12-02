@@ -1,48 +1,70 @@
 import React, { useState, Fragment } from "react";
+import { useMemo } from "react";
 import logo from "./coverimages/logo.png";
 import { Link } from "gatsby";
-import { Input, Tooltip } from "antd";
+import { Input, Select } from "antd";
 import { SearchOutlined, UserOutlined } from "@ant-design/icons";
 import Horizontal from "../../images/Horizontal.png";
 import "../style.css";
+import countryList from "react-select-country-list";
+import CountryDropdown from "country-dropdown-with-flags-for-react";
 
 const Header = () => {
-  const [navShow, setNavShow] = useState(false);
-  const onClick = (e) => {
-    setNavShow(!navShow);
+  const handleChange = (value) => {
+    console.log(`selected ${value}`);
   };
+
   return (
     <>
       <div className="top-header">
-        {/* <Input
-      style={{width: 250, color: "white"}}
-      bordered={false}
-      placeholder="Search"
-      prefix={<SearchOutlined />}
-      className="ant-input-selection__placeholder"
-    /> */}
-        palm.hr
-            {/* <nav >
+        <div className="uper-header">
+          <div className="header-input">
+            <Input
+              size="large"
+              color="white"
+              placeholder="Search"
+              bordered={false}
+              prefix={<SearchOutlined />}
+              className="ant-picker-input"
+            />
+          </div>
+
+          <div className="header-link-div">
+            <nav className="header-links">
               <ul>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">Country</Link>
                 </li>
                 <li>
-                  <Link to="/platform">Platform</Link>
+                  <Link to="/platform">Demo</Link>
                 </li>
                 <li>
-                  <Link to="/solutions">Solutions</Link>
+                  <Link to="/solutions">Pricing</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Why palm.hr</Link>
+                  <Link to="/contact">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/resources">Resources</Link>
+                  <Link to="/resources">Careers</Link>
+                </li>
+                <li>
+                  <Link to="/resources">Help Desk</Link>
                 </li>
               </ul>
-            </nav> */}
+            </nav>
+            <div>
+              <CountryDropdown
+                id="UNIQUE_ID"
+                className="YOUR_CSS_CLASS"
+                preferredCountries={["gb", "us"]}
+                value=""
+                handleChange={(e) => console.log(e.target.value)}
+              ></CountryDropdown>
+            </div>
           </div>
-       <header className="header-area inner-header">
+        </div>
+      </div>
+      <header className="header-area inner-header">
         <div className="header-bottom-area header-sticky is-sticky">
           <div className="main-menu">
             <div className="header-logo">

@@ -12,6 +12,7 @@ import Offersection from "./Offersection";
 import NewFile from "./NewFile";
 import Scndnewfile from "./Scndnewfile";
 import ButtonFile from "./ButtonFile";
+// import "../fonts/Objective-Black";
 
 const Landing = () => {
   return (
