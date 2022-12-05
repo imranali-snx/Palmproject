@@ -14,33 +14,7 @@ const Header = () => {
   return (
     <>
       <div className="top-header">
-        {/* <Input
-      style={{width: 250, color: "white"}}
-      bordered={false}
-      placeholder="Search"
-      prefix={<SearchOutlined />}
-      className="ant-input-selection__placeholder"
-    /> */}
-        palm.hr
-            {/* <nav >
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/platform">Platform</Link>
-                </li>
-                <li>
-                  <Link to="/solutions">Solutions</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Why palm.hr</Link>
-                </li>
-                <li>
-                  <Link to="/resources">Resources</Link>
-                </li>
-              </ul>
-            </nav> */}
+        Palm HR
           </div>
        <header className="header-area inner-header">
         <div className="header-bottom-area header-sticky is-sticky">
