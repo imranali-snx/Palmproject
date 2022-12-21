@@ -3,7 +3,6 @@ import Footer from "./footer";
 import Header from "./Header";
 import MainHeader from "./mainHeader";
 import MobileApp from "./downloadApp";
-// import NewFile from "./NewFile.js";
 import FeedBack from "./Feedback";
 import ManagementModel from "./ManagementModel";
 import Features from "./Features";
@@ -23,14 +22,10 @@ const Landing = () => {
       <ManagementModel />
       <Features />
       <FeedBack />
-      {/* <NewFile /> */}
-      {/* <Slider /> */}
       <Offersection />
       <ButtonFile />
       <Scndnewfile />
       <Faqs />
-      
-
       <Footer />
     </Fragment>
   );

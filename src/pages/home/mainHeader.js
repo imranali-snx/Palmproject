@@ -1,7 +1,7 @@
 import React from "react";
 import MainBOttom from "./MainBottom";
 import "./mainHeader.css";
-import rightImg from "../../images/right_img.png"
+import rightImg from "../../images/right_img.png";
 
 function Main() {
   return (
@@ -51,15 +51,6 @@ function Main() {
           <div className="main_right_img">
             <img src={rightImg} alt="pic" className="main_image_pic" />
           </div>
-          {/* <div className="calender_img">
-          <img src={Calendar} alt="Calender" />
-        </div>
-        <div className="remotework_img">
-          <img src={RemoteWork} alt="Remote Work" />
-        </div>
-        <div className="Emoji_img">
-          <img src={Emoji} alt="Emoji" />
-        </div> */}
         </div>
       </div>
       <div>
