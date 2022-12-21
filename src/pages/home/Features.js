@@ -149,11 +149,7 @@ function Features() {
                 {data[0].list8.map((task, index) => {
                   return <li>{task}</li>;
                 })}
-                {/* <li>{items?.list1}</li>
-              <li>{items?.list2}</li>
-              <li>{items?.list3}</li>
-              <li>{items?.list4}</li>
-              <li>{items?.list5}</li> */}
+              
               </ul>
             </div>
             <div className="featureLogo">
